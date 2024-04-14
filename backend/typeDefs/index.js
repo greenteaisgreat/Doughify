@@ -3,6 +3,6 @@ import transactionTypeDef from "./transaction.typeDef.js";
 import userTypeDef from "./user.typeDef.js";
 
 //transaction and user typeDefs will be grouped together and exported from here
-const mergedTypeDefs = mergeTypeDefs([transactionTypeDef, userTypeDef]);
+const mergedTypeDefs = mergeTypeDefs([userTypeDef, transactionTypeDef]);
 
 export default mergedTypeDefs;
