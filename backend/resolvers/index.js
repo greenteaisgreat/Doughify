@@ -1,6 +1,6 @@
 import { mergeResolvers } from "@graphql-tools/merge";
-import userResolver from "./user.resolver";
-import transactionResolver from "./transaction.resolver";
+import userResolver from "./user.resolver.js";
+import transactionResolver from "./transaction.resolver.js";
 
 //this file is used to combine all resolvers into a single array for
 //ease of accessing. this approach helps with scaling, as any new
