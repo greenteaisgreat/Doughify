@@ -1,5 +1,6 @@
 {
   "name": "doughify",
+  "type": "module",
   "version": "1.0.0",
   "description": "A sleek &amp; savvy expense tracker",
   "main": "index.js",
