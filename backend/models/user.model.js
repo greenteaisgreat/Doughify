@@ -21,8 +21,20 @@ const userSchema = new mongoose.Schema(
     },
     gender: {
       type: String,
-      enum: ["male", "female"],
+      enum: [
+        "male",
+        "female",
+        "non-binary",
+        "transgender",
+        "agender",
+        "demigender",
+        "genderqueer",
+      ],
     },
   },
   { timestamps: true }
 );
+
+const User = mongoose.model("User", userSchema);
+
+export default User;
